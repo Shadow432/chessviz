@@ -24,8 +24,8 @@ static int GetLine(char *buff, size_t sz) {
 void moves(){
   print_board();
 char hag[16];
-while (GetLine(xod,sizeof(xod))){}
- printf("%s",xod);
+while (GetLine(hag,sizeof(hag))){}
+ printf("%s",hag);
 
  int l1=hag[0]-'a';
  int d1=hag[1]-'0'-1;
